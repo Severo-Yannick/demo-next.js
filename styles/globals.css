@@ -15,6 +15,25 @@ a {
   box-sizing: border-box;
 }
 
+.container {
+  margin: 1rem;
+}
+
+nav {
+  background: black;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 1rem;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
