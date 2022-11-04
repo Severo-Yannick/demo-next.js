@@ -27,6 +27,11 @@ nav {
   justify-content: space-between;
 }
 
+nav .active {
+  color: blueviolet;
+  font-weight: bold;
+}
+
 .footer {
   text-align: center;
   background: black;
