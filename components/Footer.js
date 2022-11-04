@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="footer">Yannick &copy; {new Date().getFullYear()}</div>
+    <div className="footer">Coded with ❤️ by Yannick &copy; {new Date().getFullYear()}</div>
   );
 };
 

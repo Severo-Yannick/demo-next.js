@@ -32,6 +32,11 @@ nav {
   background: black;
   color: white;
   padding: 1rem;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
 }
 
 @media (prefers-color-scheme: dark) {
