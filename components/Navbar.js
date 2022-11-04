@@ -10,8 +10,15 @@ const Navbar = () => {
       <Link href="/about">About</Link>
       <Link href="/contact">Contact</Link>
       <Link href="/blog">Blog</Link>
+      {user && <Link href="/dashboard">Dashboard</Link>}
       {!user && <Link href="/user/auth">Login</Link>}
-      {user && <button onClick={() => setUser(null)}>Hello <span>{user}</span> | Logout</button>}
+      {user && (
+        <Link href="/">
+          <button onClick={() => setUser(null)}>
+            Hello <span>{user}</span> | Logout
+          </button>
+        </Link>
+      )}
     </nav>
   );
 };
